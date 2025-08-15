@@ -630,6 +630,8 @@ alias pci:v000017CBd00001101sv*sd*bc*sc*i* cnss2
 alias pci:v000017CBd00001103sv*sd*bc*sc*i* cnss2
 alias pci:v000017CBd00001107sv*sd*bc*sc*i* cnss2
 alias pci:v000017CBd0000110Asv*sd*bc*sc*i* cnss2
+alias of:N*T*Cqcom,crypto crypto_qti_common
+alias of:N*T*Cqcom,cryptoC* crypto_qti_common
 alias of:N*T*Cqcom,parrot-dispcc dispcc_parrot
 alias of:N*T*Cqcom,parrot-dispccC* dispcc_parrot
 alias of:N*T*Cqcom,ipcc qcom_ipcc
@@ -639,6 +641,8 @@ alias of:N*T*Cqcom,qcs404-cdsp-pilC* qcom_q6v5_adsp
 alias of:N*T*Cqcom,sdm845-adsp-pil qcom_q6v5_adsp
 alias of:N*T*Cqcom,sdm845-adsp-pilC* qcom_q6v5_adsp
 alias pwm:pwm-lpg pwm_qti_lpg
+alias of:N*T*Cqcom,pcie-i2c-ntn3 pci_msm_drv
+alias of:N*T*Cqcom,pcie-i2c-ntn3C* pci_msm_drv
 alias of:N*T*Cqcom,sharedmem-uio msm_sharedmem
 alias of:N*T*Cqcom,sharedmem-uioC* msm_sharedmem
 alias qcom,pmic-glink pmic_glink

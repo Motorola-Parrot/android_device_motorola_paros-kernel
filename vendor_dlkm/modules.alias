@@ -10,7 +10,6 @@ alias of:N*T*Cqcom,msm-eud eud
 alias of:N*T*Cqcom,msm-eudC* eud
 alias crypto-lzo lzo
 alias lzo lzo
-alias i2c:awinic_sar awinic_sar
 alias usbfunc:moto_mass_storage moto_f_mass_storage
 alias of:N*T*Cqcom,adsp-notify q6_notifier_dlkm
 alias of:N*T*Cqcom,adsp-notifyC* q6_notifier_dlkm
@@ -148,6 +147,9 @@ alias of:N*T*Cqcom,ravelin-camccC* camcc_ravelin
 alias platform:spi_geni spi_msm_geni
 alias platform:swr-mstr swr_ctrl_dlkm
 alias i2c:aw2016_led leds_aw2016
+alias i2c:dio8015 dio8015
+alias of:N*T*Cfocaltech,fts focaltech_0flash_v2_mmi
+alias of:N*T*Cfocaltech,ftsC* focaltech_0flash_v2_mmi
 alias leds:leds-qpnp-flash-v2 leds_qpnp_flash_v2
 alias amba:d???BB961 coresight_tmc
 alias amba:d???BB9E8 coresight_tmc
@@ -171,7 +173,6 @@ alias of:N*T*Cqcom,parrot-videocc videocc_parrot
 alias of:N*T*Cqcom,parrot-videoccC* videocc_parrot
 alias of:N*T*Cqcom,gpr gpr_dlkm
 alias of:N*T*Cqcom,gprC* gpr_dlkm
-alias i2c:wl2866d wl2866d
 alias of:N*T*Cqcom,msm-cdsprm-rpmsg cdsprm
 alias of:N*T*Cqcom,msm-cdsprm-rpmsgC* cdsprm
 alias of:N*T*Cqcom,ufs-phy-qmp-v4-anarok phy_qcom_ufs_qmp_v4_anarok
@@ -189,6 +190,7 @@ alias of:N*T*Cqcom,qcedev qcedev_mod
 alias of:N*T*Cqcom,qcedevC* qcedev_mod
 alias of:N*T*Cqcom,qcedev,context-bank qcedev_mod
 alias of:N*T*Cqcom,qcedev,context-bankC* qcedev_mod
+alias i2c:stk501xx stk501xx_sar
 alias of:N*T*Cqcom,msm-fastrpc-rpmsg frpc_adsprpc
 alias of:N*T*Cqcom,msm-fastrpc-rpmsgC* frpc_adsprpc
 alias of:N*T*Cqcom,pm8916-pon qcom_pon
@@ -379,14 +381,6 @@ alias lzo-rle lzo_rle
 alias char-major-21-* sg
 alias usbfunc:usbnet moto_f_usbnet
 alias usbfunc:cser usb_f_cdev
-alias of:N*T*Cgoodix,gt9897 goodix_brl_mmi
-alias of:N*T*Cgoodix,gt9897C* goodix_brl_mmi
-alias of:N*T*Cgoodix,gt9966 goodix_brl_mmi
-alias of:N*T*Cgoodix,gt9966C* goodix_brl_mmi
-alias of:N*T*Cgoodix,gt9916 goodix_brl_mmi
-alias of:N*T*Cgoodix,gt9916C* goodix_brl_mmi
-alias i2c:goodix_ts goodix_brl_mmi
-alias platform:goodix_ts goodix_brl_mmi
 alias platform:spmi-temp-alarm qcom_spmi_temp_alarm
 alias of:N*T*Cqcom,spmi-temp-alarm qcom_spmi_temp_alarm
 alias of:N*T*Cqcom,spmi-temp-alarmC* qcom_spmi_temp_alarm
@@ -427,6 +421,8 @@ alias of:N*T*Cqcom,gpi-dma gpi
 alias of:N*T*Cqcom,gpi-dmaC* gpi
 alias of:N*T*Cqcom,spf_core spf_core_dlkm
 alias of:N*T*Cqcom,spf_coreC* spf_core_dlkm
+alias i2c:ktd3136-bl ktd3136_bl
+alias i2c:aw99703-bl leds_aw99703
 alias platform:qcom-spmi-gpio pinctrl_spmi_gpio
 alias of:N*T*Cqcom,pm8005-gpio pinctrl_spmi_gpio
 alias of:N*T*Cqcom,pm8005-gpioC* pinctrl_spmi_gpio
@@ -508,6 +504,10 @@ alias of:N*T*Cqcom,pmxr2230-gpio pinctrl_spmi_gpio
 alias of:N*T*Cqcom,pmxr2230-gpioC* pinctrl_spmi_gpio
 alias of:N*T*Cqcom,pmi632-gpio pinctrl_spmi_gpio
 alias of:N*T*Cqcom,pmi632-gpioC* pinctrl_spmi_gpio
+alias of:N*T*Cfpc,fpc1020 fpc1020_mmi
+alias of:N*T*Cfpc,fpc1020C* fpc1020_mmi
+alias of:N*T*Cmoto,mmi_stow mmi_stow
+alias of:N*T*Cmoto,mmi_stowC* mmi_stow
 alias of:N*T*Cqcom,ufs-phy-qmp-v4-diwali phy_qcom_ufs_qmp_v4_diwali
 alias of:N*T*Cqcom,ufs-phy-qmp-v4-diwaliC* phy_qcom_ufs_qmp_v4_diwali
 alias amba:d???BB962 coresight_stm
@@ -584,8 +584,6 @@ alias of:N*T*Cqcom,audio-ref-clk wcd9xxx_dlkm
 alias of:N*T*Cqcom,audio-ref-clkC* wcd9xxx_dlkm
 alias of:N*T*Cqcom,parrot-gpucc gpucc_parrot
 alias of:N*T*Cqcom,parrot-gpuccC* gpucc_parrot
-alias of:N*T*Cjiiov,fingerprint anc_fps_mmi
-alias of:N*T*Cjiiov,fingerprintC* anc_fps_mmi
 alias of:N*T*Cqcom,ext-mdm9x55 qcom_esoc
 alias of:N*T*Cqcom,ext-mdm9x55C* qcom_esoc
 alias of:N*T*Cqcom,ext-sdx50m qcom_esoc
@@ -638,6 +636,8 @@ alias of:N*T*Cqcom,qcs404-cdsp-pilC* qcom_q6v5_adsp
 alias of:N*T*Cqcom,sdm845-adsp-pil qcom_q6v5_adsp
 alias of:N*T*Cqcom,sdm845-adsp-pilC* qcom_q6v5_adsp
 alias pwm:pwm-lpg pwm_qti_lpg
+alias of:N*T*Cqcom,pcie-i2c-ntn3 pci_msm_drv
+alias of:N*T*Cqcom,pcie-i2c-ntn3C* pci_msm_drv
 alias of:N*T*Cqcom,sharedmem-uio msm_sharedmem
 alias of:N*T*Cqcom,sharedmem-uioC* msm_sharedmem
 alias qcom,pmic-glink pmic_glink
